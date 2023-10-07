@@ -1,0 +1,12 @@
+The following Hugging Face classification models are similar to mrm8488/bert-tiny-finetuned-sms-spam-detection for classifying spam and ham email:
+
+rafacost/bert_base_pt_en_cased_email_spam
+rafacost/bert_small_pt_en_uncased_email_spam
+ZachBeesley/Spam-Detector
+These models are all based on the BERT architecture, which is a type of transformer model that has been shown to be very effective for text classification tasks. They have also been fine-tuned on a dataset of spam and ham emails, which means that they should be able to perform well on your own email dataset.
+
+Here is a brief description of each model:
+
+rafacost/bert_base_pt_en_cased_email_spam: This model is based on the BERT base model, which has 12 layers and 110M parameters. It is trained on a dataset of spam and ham emails from the Enron email corpus.
+rafacost/bert_small_pt_en_uncased_email_spam: This model is based on the BERT small model, which has 8 layers and 66M parameters. It is trained on a dataset of spam and ham emails from the Enron email corpus.
+ZachBeesley/Spam-Detector: This model is based on the DistilBERT base model, which is a smaller and faster version of the BERT base model. It is trained on a dataset of spam and ham emails from the Enron email corpus and other sources.
